@@ -1,21 +1,17 @@
-# **Book Genre Prediction Dataset**
+# **News Classification Dataset**
 
 About the Dataset
 --
-The main goal of this dataset is to predict the genre of a book based on its synopsis. It contains essential information to assist in genre classification tasks.
+This dataset comprises three columns: news_headline, news_article, and news_category. It encompasses news articles from seven distinct categories: technology, sports, politics, entertainment, world, automobile, and science.
 
-Columns
-The dataset consists of 4 columns:
+**Columns**
 
-- index: Index column.
-- title: Title of the book.
-- genre: Genre of the book.
-- summary: Summary or synopsis of the book.
+The dataset is structured with the following columns:
 
-Purpose
---
-The primary objective of this dataset is to facilitate the development of models for predicting the genre of a book using its synopsis. This dataset is ideal for text classification and genre prediction tasks.
+- **news_headline:** Headline/title of the news article.
+- **news_article:** Content of the news article.
+- **news_category:** Categorization of the news article into one of the seven predefined categories.
 
 Dataset Link
 --
-The dataset can be accessed [from this source](https://www.kaggle.com/datasets/athu1105/book-genre-prediction).
+The dataset is available for access via [link to the dataset repository/source](https://www.kaggle.com/datasets/kishanyadav/inshort-news?select=inshort_news_data-1.csv).
